@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.beangle</groupId>
+	<artifactId>beangle-struts2-ajaxupload</artifactId>
+	<packaging>jar</packaging>
+	<name>Beangle AjaxUpload</name>
+	<parent>
+		<groupId>org.beangle</groupId>
+		<artifactId>beangle-parent</artifactId>
+		<version>2.1.0-beta</version>
+	</parent>
+	
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.struts</groupId>
+			<artifactId>struts2-core</artifactId>
+			<version>2.2.1</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>2.4</version>
+			<scope>provided</scope>
+		</dependency>		 
+		<!-- JSON -->
+		<dependency>
+			<groupId>net.sf.json-lib</groupId>
+			<artifactId>json-lib</artifactId>
+			<version>2.0</version>
+			<classifier>jdk15</classifier>
+		</dependency>
+	</dependencies>
+</project>
